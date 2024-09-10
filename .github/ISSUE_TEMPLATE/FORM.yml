@@ -24,7 +24,15 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: |
+        ### What happend? |
+        I was doing something... |
+        ### Expected | 
+        I was expect to add a new idea :) |
+        ### Actual |
+        The idea was not added :'( |
+        ### References |
+        More details like url or browser env and version |
     validations:
       required: true
   - type: dropdown
@@ -33,8 +41,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - latest (Google Chrome Browset)
+        - latest (Other Web Browser please provide name and version)
       default: 0
     validations:
       required: true
