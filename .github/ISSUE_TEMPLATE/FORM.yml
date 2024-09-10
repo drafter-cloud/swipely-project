@@ -25,14 +25,14 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: |
-        ### What happend? |
-        I was doing something... |
-        ### Expected | 
-        I was expect to add a new idea :) |
-        ### Actual |
-        The idea was not added :'( |
-        ### References |
-        More details like url or browser env and version |
+        ### What happend? 
+        I was doing something... 
+        ### Expected 
+        I was expect to add a new idea :) 
+        ### Actual 
+        The idea was not added :'( 
+        ### References 
+        More details like url or browser env and version 
     validations:
       required: true
   - type: dropdown
